@@ -11,42 +11,12 @@ if (file_exists('LookingGlass/Config.php')) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<!--
-                 __ _
-               .: .' '.
-              /: /     \_
-             ;: ;  ,-'/`:\
-             |: | |  |() :|
-             ;: ;  '-.\_:/
-              \: \     /`
-               ':_'._.'
-                  ||
-                 /__\
-      .---.     {====}
-    .'   _,"-,__|::  |
-   /    ((O)=;--.::  |
-  ;      `|: |  |::  |
-  |       |: |  |::  |            *****************************
-  |       |: |  |::  |            * LookingGlass by Telephone *
-  |       |: |  |::  |            *  http://iamtelephone.com  *
-  |       |: |  |::  |            *****************************
-  |       |: |  |::  |
-  |      /:'__\ |::  |
-  |     [______]|::  |
-  |      `----` |::  |__
-  |         _.--|::  |  ''--._
-  ;       .'  __{====}__      '.
-   \    .'_.-'._ `""` _.'-._    '.
-    '--'/`      `''''`      `\    '.__
-        '._                _.'
-           `""--......--""`
--->
   <head>
     <meta charset="utf-8">
     <title><?php echo $siteName; ?> - Looking Glass</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="LookingGlass - Open source PHP looking glass">
-    <meta name="author" content="Telephone">
+    <meta name="description" content="LookingGlass - GB Network Solutions AS132372">
+    <meta name="author" content="GBNetwork">
 
     <!-- IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -64,8 +34,9 @@ if (file_exists('LookingGlass/Config.php')) {
       <header class="header nohighlight" id="overview">
         <div class="row">
           <div class="span12">
-            <h1><a id="title" href="<?php echo $siteUrl; ?>"><?php echo $siteName; ?></a></h1>
-          </div>
+           <!-- <h1><a id="title" href="<?php echo $siteUrl; ?>"><?php echo $siteName; ?></a></h1> -->
+         <a href="https://www.gbnetwork.my"><img src="https://www.gbnetwork.my/images/logo.png" class="rounded" alt="Powered by GB Network Solutions"></a>
+         </div>
         </div>
       </header>
 
@@ -136,7 +107,7 @@ if (file_exists('LookingGlass/Config.php')) {
         <p class="pull-right">
             <a href="#">Back to top</a>
         </p>
-        <p>Powered by <a href="http://github.com/telephone/LookingGlass">LookingGlass</a></p>
+        <p>Powered by <a href="https://www.gbnetwork.my">GB Network Solutions</a></p>
       </footer>
 
     </div><!-- /container -->
